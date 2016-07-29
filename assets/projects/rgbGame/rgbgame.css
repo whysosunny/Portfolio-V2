@@ -1,0 +1,102 @@
+html {
+    padding: 0;
+}
+
+body {
+    background: #232323;
+    color: #f4f4f4;
+    font-family: "Proxima Nova Soft", sans-serif;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.square {
+    width: 30%;
+    margin: 1.66%;
+    float:left;
+    padding-bottom: 30%;
+    border-radius: 8px;
+    transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+#container {
+    width: 600px;
+    margin: 0 auto;
+    height: 460px;
+}
+
+.hgroup {
+    text-align: center;
+    background: #1e90c7;
+    padding: 10px;
+    transition: background 0.3s;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+span#colorDisplay {
+    display: block;
+    font-size: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#actionBar {
+    height: 30px;
+    text-align: center;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#message {
+    display: inline-block;
+    line-height: 30px;
+    width: 20%;
+    font-weight: bold;
+}
+
+.selected {
+    background: #1e90c7;
+    color: white;
+}
+
+button {
+    font-family: "Proxima Nova Soft",sans-serif;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: bolder;
+    color: #1e90c7;
+    letter-spacing: 1px;
+    font-size: 0.8em;
+    padding-top: 5px;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+    color: white;
+    background: #1e90c7;
+}
+
+button:focus {
+    outline: none;
+}
