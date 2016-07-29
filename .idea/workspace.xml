@@ -3,8 +3,30 @@
   <component name="ChangeListManager">
     <list default="true" id="1d8f2544-490d-47b9-9d6b-620e85e0f173" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/images/QuickNote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/JQTodo" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/Suntime" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/calculator" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/glowyCircles" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/my-day/Adam Snow - Meghan's Theme.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/my-day/music/I'm back.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/my-day/music/dave-matthews-band-41.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/my-day/music/eyes.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/my-day/music/to-zion.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/ngTask" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/soundPlay" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/my-day/howler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/my-day/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/my-day/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/my-day/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/my-day/newScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/my-day/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/rgbGame/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/rgbGame/rgbgame.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/projects/rgbGame/script.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/package.json" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/assets/images/quicknote.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/calc.png" afterPath="$PROJECT_DIR$/assets/images/calc.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/images/rgb-game.png" afterPath="$PROJECT_DIR$/assets/images/rgb-game.png" />
@@ -327,23 +349,23 @@
       <workItem from="1467867732330" duration="1998000" />
       <workItem from="1468496014493" duration="195000" />
       <workItem from="1469164851240" duration="1653000" />
-      <workItem from="1469762950124" duration="1293000" />
+      <workItem from="1469762950124" duration="1355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16991000" />
+    <option name="totallyTimeSpent" value="17053000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14517266" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328125" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
