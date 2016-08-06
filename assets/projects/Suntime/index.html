@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="suntime">
+<head>
+    <meta charset="UTF-8">
+    <title>SunTime</title>
+    <link href="libs/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <script src="libs/jquery/dist/jquery.js"></script>
+    <script src="libs/angular/angular.js"></script>
+    <script src="app.js"></script>
+    <script src="controllers/MainController.js"></script>
+    <script src="controllers/TimerController.js"></script>
+</head>
+<body ng-controller="MainController">
+
+<div class="wrapper">
+    <div id="clock" class="clock-container">
+        <div class="time" ng-show="currentItem === 'clock'">
+
+            <div class="main-digits">
+                <span>{{clock.time | date: 'hh:mm'}}</span>
+            </div>
+
+            <div class="support-elements">
+                <div class="seconds">
+                    <span>{{clock.time | date:'ss'}}</span>
+                </div>
+
+                <div class="am-pm">
+                    <span>{{clock.time | date:'a'}}</span>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="timer" class="time" ng-show="currentItem === 'timer'" ng-controller="TimerController">
+            <div ng-show = "error">{{error}}</div>
+            <div class="main-digits">
+                <span ng-show="timerDone">Done!</span>
+                <span ng-hide = "timerDone">
+
+                    <form>
+                        <input ng-hide="timerActive" class="input-min" min="0" placeholder="H" ng-model="timerHrs"><span ng-hide="timerActive">:</span><input ng-hide="timerActive" class="input-max" min="0" placeholder="M" ng-model="timerMin">
+                    </form>
+
+                    <span ng-show="timerActive">{{hours}}:{{minutes}}</span>
+
+                </span>
+
+            </div>
+
+            <div class="support-elements">
+                <div class="seconds">
+                    <form>
+                        <input ng-hide="timerActive" class="input-sec" min="0" placeholder="S" ng-model="timerSec">
+                    </form>
+                    <span ng-show="timerActive">{{seconds}}</span>
+                </div>
+
+                <div class="am-pm">
+                    <a ng-click="startTimer(timerHrs,timerMin,timerSec)"><span class="start-button">{{buttonStatus}}</span></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+
+            <a href="#"><div class="clock-btn" ng-click="showClock()" >Clock</div></a>
+            <a href="#"><div class="timer-btn" ng-click="showTimer()">Timer</div></a>
+            <a href="#"><div class="alarm-btn" ng-click="showAlarm()">Alarm</div></a>
+
+        </div>
+
+        <div ng-show="timer" class="sound-selector">
+            <span>Sound: </span>
+            <select class="sound-dropdown">
+                <option value="ring">Ring</option>
+                <option value="ring">Ring</option>
+                <option value="ring">Ring</option>
+                <option value="ring">Ring</option>
+            </select>
+            <a  class="custom-sound-link">Custom Sound</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

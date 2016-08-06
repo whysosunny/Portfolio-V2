@@ -1,0 +1,179 @@
+body {
+    background: #263238;
+    font-family: Futura, sans-serif;
+    color: white;
+}
+
+.clock-container {
+    position: absolute;
+    width: 600px;
+    /*background: #37474F;*/
+    background: rgba(255, 255, 255, 0.06);
+    padding: 20px 0;
+    border-radius: 4px;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.time {
+    position: relative;
+    min-height: 150px;
+    text-align: center;
+}
+
+.main-digits {
+    display: inline-block;
+    font-size: 103px;
+}
+
+.support-elements {
+    display: inline-block;
+    font-size: 35px;
+}
+
+.seconds {
+    min-height: 75px;
+    padding:30px 10px 0 15px;
+
+}
+
+.am-pm {
+    min-height: 75px;
+    padding: 0 10px 10px 10px;
+}
+
+.buttons {
+    position: relative;
+    max-height: 75px;
+    text-align: center;
+}
+
+.buttons a div{
+    color: white;
+    display: inline-block;
+    height: 51px;
+    margin: 12px;
+    width: 160px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 26px;
+    padding: 7px;
+    /*background-color: #82BF56;*/
+    background-color: #388E3C;
+    /*border-bottom: 4px solid #669644;*/
+    border-bottom: 4px solid #1B5E20;
+    text-shadow: 0 -2px #669644;
+    transition: all 0.1s;
+}
+
+.buttons a div:active {
+    transform: translate(0px,3px);
+    height: 47px;
+    -webkit-transform: translate(0px,3px);
+    border-bottom: 1px solid #388E3C;
+}
+
+.buttons a div.clicked {
+    transform: translate(0px,3px);
+    height: 47px;
+    border-bottom: 1px solid #388E3C;
+
+}
+
+#timer div.am-pm .start-button {
+    position: relative;
+    top: 1px;
+    font-size: 27px;
+    padding: 1px 10px;
+    border-radius: 8px;
+    background-color: #388E3C;
+    /*border-bottom: 4px solid #669644;*/
+    border-bottom: 3px solid #1B5E20;
+    text-shadow: 0 -2px #669644;
+    transition: all 0.1s;
+    color: white;
+    height: 35px;
+    min-width: 80px;
+    cursor: pointer;
+}
+
+#timer div.am-pm a:hover {
+    text-decoration: none;
+}
+#timer div.am-pm .start-button:active {
+    transform: translate(0px,1px);
+    -webkit-transform: translate(0px,3px);
+    border-bottom: 1px solid #388E3C;
+}
+
+.sound-selector {
+    position: relative;
+    min-height: 50px;
+    font-size: 22px;
+    padding: 15px;
+    text-align: center;
+}
+
+.sound-selector select {
+    position: relative;
+    top: -2px;
+    margin: 0 20px 0 20px;
+}
+
+.custom-sound-link {
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    width: 160px;
+    padding-top: 2px;
+    height: 29px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #82BF56;
+    border-bottom: 3px solid #669644;
+}
+
+.custom-sound-link:hover, .custom-sound-link:active, .custom-sound-link:after  {
+    text-decoration: none;
+    background-color: #76ae4e;
+    cursor: pointer;
+    color: white;
+}
+
+.custom-sound-link:active {
+    transform: translate(0,3px)
+}
+
+a:after {
+    color: white;
+}
+
+
+/*Timer*/
+
+input {
+    position: relative;
+    width: 114px;
+    height: 104px;
+    font-size: 60px;
+    color: black;
+    text-align: center;
+    border: none;
+    top: -15px;
+    border-radius: 8px;
+}
+
+input:focus {
+    outline: none;
+}
+
+input.input-sec {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 60px;
+    font-size: 27px;
+    top: 0.1px;
+    left: -2px;
+}
