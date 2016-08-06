@@ -97,7 +97,7 @@ body {
 }
 
 .quicknote {
-    background: url("./assets/images/quicknote.png") no-repeat center;
+    background: url("assets/images/quickNote.png") no-repeat center;
     background-size: cover;
 }
 
